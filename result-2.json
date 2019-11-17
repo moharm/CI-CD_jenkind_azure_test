@@ -1,0 +1,29 @@
+{
+	"result": {
+		"ok": 1,
+		"n": 2
+	},
+	"ops": [
+		{
+			"_id": "5db1b9fd61353f20d8dfa1b3",
+			"nom": "harmouch",
+			"prenom": "mohcine",
+			"email": "ffsfs@Gmail.com",
+			"adresse": "morroco",
+			"password": "123"
+		},
+		{
+			"_id": "5db1ba3bf57bc720d8a325c2",
+			"nom": "baqach",
+			"prenom": "adil",
+			"email": "hhhh@Gmail.com",
+			"adresse": "morroco",
+			"password": "123"
+		}
+	],
+	"insertedCount": 2,
+	"insertedIds": [
+		"5db1b9fd61353f20d8dfa1b3",
+		"5db1ba3bf57bc720d8a325c2"
+	]
+}

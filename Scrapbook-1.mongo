@@ -1,0 +1,67 @@
+
+db.Etudiant.insertMany([{
+        "_id" : ObjectId("5db1c731f57bc720d8a325c3"),
+        "nom" : "bouhouch",
+        "prenom" : "khalid",
+        "images" : {
+                "0" : "image.png"
+        },
+        "publications" : [
+                {
+                        "_id" : ObjectId("5db1b09861353f20d8dfa1ae"),
+                        "titre" : "I need help to Connect NodeJs with MongoDB",
+                        "Domaines" : [
+                                "Bootstrap",
+                                "NodeJs",
+                                "MongoDB"
+                        ],
+                        "contenu" : "hello friends, i'm trying to connect my App to MongoDB database, my App based on NodeJs in the backend , and i need some help to connect them... ",
+                        "date" : ISODate("2019-10-10T11:15:00Z"),
+                        "type" : "public",
+                        "Commentaires" : [
+                                {
+                                        "_id" : ObjectId("5db1b1d061353f20d8dfa1af"),
+                                        "contenu" : "see this StackOverFlow page , it may helps you "
+                                },
+                                {
+                                        "_id" : ObjectId("5db1b29461353f20d8dfa1b0"),
+                                        "contenu" : "see this pic ",
+                                        "image" : "1.png"
+                                }
+                        ]
+                }
+        ]
+},
+{
+        "_id" : ObjectId("5db1c746f57bc720d8a325c4"),
+        "nom" : "baqach",
+        "prenom" : "adil",
+        "images" : {
+                "0" : "image.png"
+        },
+        "publications" : [
+                {
+                        "_id" : ObjectId("5db1b09861353f20d8dfa1ae"),
+                        "titre" : "I need help to Connect NodeJs with MongoDB",
+                        "Domaines" : [
+                                "Bootstrap",
+                                "NodeJs",
+                                "MongoDB"
+                        ],
+                        "contenu" : "hello friends, i'm trying to connect my App to MongoDB database, my App based on NodeJs in the backend , and i need some help to connect them... ",
+                        "date" : ISODate("2019-10-10T11:15:00Z"),
+                        "type" : "public",
+                        "Commentaires" : [
+                                {
+                                        "_id" : ObjectId("5db1b1d061353f20d8dfa1af"),
+                                        "contenu" : "see this StackOverFlow page , it may helps you "
+                                },
+                                {
+                                        "_id" : ObjectId("5db1b29461353f20d8dfa1b0"),
+                                        "contenu" : "see this pic ",
+                                        "image" : "1.png"
+                                }
+                        ]
+                }
+        ]
+}])
